@@ -1,0 +1,24 @@
+#index-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    #intro-wrapper {
+        width: 90%;
+        height: 90%;
+        max-width: 1219px;
+        max-height: 1219px;
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        grid-template-areas: 
+            "bn bn bn tx"
+            "bn bn bn tx"
+            "bn bn bn st"
+            "rt rt un un";
+    }
+}

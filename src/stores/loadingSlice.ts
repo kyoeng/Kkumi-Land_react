@@ -10,7 +10,7 @@ const initialState = true;
 
 
 const loadingSlice = createSlice({
-    name: "",
+    name: "loading",
     initialState,
     reducers: {
         loadingOn: (state) => {
